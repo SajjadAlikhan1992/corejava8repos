@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void getProducts()&apos; from &apos;com.example.javapredicates.ConsumerExamples.test1()&apos; to &apos;com.example.javapredicates.ConsumerExamples&apos;&#x0D;&#x0A;- Original project: &apos;javapredicates&apos;&#x0D;&#x0A;- Method name: &apos;getProducts&apos;&#x0D;&#x0A;- Destination type: &apos;com.example.javapredicates.ConsumerExamples&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;getProducts&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.javapredicates{ConsumerExamples.java" name="getProducts" replace="false" selection="158 463" stamp="1720091604313" version="1.0" visibility="2"/>
+</session>

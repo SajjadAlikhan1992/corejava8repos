@@ -1,0 +1,19 @@
+package com.example.javapredicates;
+
+import java.util.function.Predicate;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        
+    	Predicate<String> p1=str->str.matches("[a-zA-Z]+");
+    	
+    	p1.test("Sajjad");
+    	
+    }
+}

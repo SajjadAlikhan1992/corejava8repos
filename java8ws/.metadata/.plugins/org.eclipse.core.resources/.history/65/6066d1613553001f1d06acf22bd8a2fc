@@ -1,0 +1,39 @@
+package com.example.javapredicates;
+
+import java.util.function.IntPredicate;
+import java.util.function.Predicate;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class LoggerUtilTest {
+
+	@Test
+	public void test() {
+		LoggerUtil loggerUtil1 = LoggerUtil.getInstance();
+		LoggerUtil loggerUtil2 = LoggerUtil.getInstance();
+
+		if (loggerUtil1 == loggerUtil2) {
+			System.out.println("Objects are equal");
+		} else {
+			System.out.println("Not Equal");
+		}
+
+		loggerUtil1.printLogMessage("Hello Sajjad, Welcome to Design Patterns");
+	}
+
+	@Test
+	public void evenCheck() {
+
+		IntPredicate intPredicate = (age) -> age > 19;
+		Assert.assertEquals(true, intPredicate.test(21));
+		// Assert.assertEquals(false, intPredicate.test(25));
+	}
+
+	@Test
+	public void checkEquality() {
+		Predicate<String> predicate = (str) -> str.contentEquals("java");
+		Assert.assertEquals(true, predicate.test("Java"));
+	}
+
+}

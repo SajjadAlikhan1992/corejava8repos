@@ -1,0 +1,12 @@
+package com.example.javapredicates;
+
+import org.junit.Test;
+
+public class LoggerUtilTest {
+
+	@Test
+	public void test() {
+		LoggerUtil loggerUtil = LoggerUtil.getInstance();
+		loggerUtil.printLogMessage("Hello Sajjad, Welcome to Design Patterns");
+	}
+}

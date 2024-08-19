@@ -1,0 +1,20 @@
+package com.example.javapredicates;
+
+import java.util.function.Predicate;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        
+    	
+    	
+    	
+    	
+    	
+    }
+}

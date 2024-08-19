@@ -1,0 +1,17 @@
+package com.example.javapredicates;
+
+import java.util.function.IntPredicate;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class PredicateEvenCheck {
+
+    @Test
+    public void evenCheck() {
+        IntPredicate intPredicate = (value) -> value % 2 == 0;
+        Assert.assertEquals(true, intPredicate.test(20));
+        Assert.assertEquals(true, intPredicate.test(31));
+    }
+
+}

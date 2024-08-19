@@ -1,0 +1,21 @@
+package com.example.javapredicates;
+
+import java.util.function.Function;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+ b
+puublic class FunctionExampleTest {
+
+	@Test
+	public void test() {
+
+		Function<String, Integer> f1 = (str) -> str.length();
+
+		
+		
+		Assert.assertEquals(15, f1.apply("Sajjad Alikhan"));
+	}
+
+}
